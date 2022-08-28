@@ -1,0 +1,160 @@
+* {
+  font-family: "Noto Serif TC";
+}
+
+body {
+  height: 2000px;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: #fff;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #d48e0f;
+  font-weight: bold;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(http://nigili5.com/wp-content/uploads/yam/151a1b1b4dbaed.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: #fff;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #fff;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section#section_ask {
+  background-color: #697A55;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url("https://images.unsplash.com/photo-1577016029703-cc22a7c0c28c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2857&q=80");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+section#section_ask h2 {
+  margin-top: 260px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 200px;
+  overflow: hidden;
+}
+
+section#section_story {
+  background-color: #697A55;
+  color: #fff;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url("https://img.shoplineapp.com/media/image_clips/5fe053ccaf1846002640b4fc/original.jpg?1608537036");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  background-size: 100% auto;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-4 {
+  margin-top: 30px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+section#section_future {
+  padding: 0;
+  position: relative;
+}
+section#section_future img {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+section#section_future .col-sm-4 {
+  margin-top: 1rem;
+}
+section#section_future i {
+  font-size: 35px;
+  font-family: Font Awesome 5 Free;
+}
+section#section_future .feature {
+  padding: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(http://nigili5.com/wp-content/uploads/yam/151a1b1b4dbaed.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron .container {
+  color: #fff;
+  padding: 60px 0px;
+}
+footer.jumbotron .box {
+  color: #f6ff00;
+  width: 200px;
+  height: 10px;
+}
+footer.jumbotron input {
+  max-width: 300px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #fff;
+  background-color: transparent;
+}
+footer.jumbotron input::-moz-placeholder {
+  color: #fff;
+  opacity: 0.8;
+  text-align: center;
+}
+footer.jumbotron input:-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.8;
+  text-align: center;
+}
+footer.jumbotron input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+  text-align: center;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #fff;
+}
